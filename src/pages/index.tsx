@@ -1,12 +1,12 @@
-import Head from 'next/head'
+import Head from 'next/head';
 import {
   Container,
   Main,
   Title,
   Description,
   CodeTag,
-} from '../components/sharedstyles'
-import Cards from '../components/cards'
+} from '../components/sharedstyles';
+import Cards from '../components/cards';
 
 export default function Home() {
   return (
@@ -17,9 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Main>
-        <Title>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </Title>
+        <Title>next-app-with-eslint-prettier-and-styled-components</Title>
 
         <Description>
           Get started by editing
@@ -29,5 +27,5 @@ export default function Home() {
         <Cards />
       </Main>
     </Container>
-  )
+  );
 }
